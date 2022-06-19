@@ -33,7 +33,7 @@ const ImageSlider = ({ slides }) => {
             {index === current && (
               <div className='image1' style={{backgroundImage:`url(${slide.image})`}}>        
                <a className='link-project' href={slide.netlify}><i class="fas fa-link"></i></a>  
-               <a className='link-project' href={slide.github}><i class="fab fa-github fa-2x"></i></a>
+               <a className='link-project' href={slide.github}><i class="fab fa-github fa-2x small"></i></a>
               </div>
               )}
           </div>
