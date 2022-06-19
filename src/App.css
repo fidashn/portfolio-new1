@@ -50,7 +50,7 @@
 
 .download {
   width: 15vmin;
-  height: 4vmin;
+  height: 5vmin;
   border-radius: 20px;
   color: var(--text-color);
   background-color: transparent;
@@ -61,26 +61,100 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
-  /* .nav {
-          width:100vw;
-          height: 7vmin;
-          justify-content: space-between;
-       }
-       .name {
-        transform: translateX(1vmin);
-      }
-      .ul1 {
-        transform: translateX(3vmin);
-      }
-      .download {
-        height: 5vmin;
-        width:22vmin;
-      } */
+#about-section {
+  display: flex;
+  flex: 1 1 0;
+  margin-top: 15vh;
+}
+.about-img,
+.about-box {
+  height: 60vh;
+  margin-left: 10vw;
+}
+
+#my-img {
+  height: 60vh;
+  background-size: cover;
+  border-radius: 10px;
+}
+h2,
+p {
+  color: var(--text-color);
+  margin-right: 10vw;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects-box {
+  height: 80vh;
+  margin: 15vh 2vw 5vh 2vw;
+}
+
+.slider {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  width: 70vw;
+  height: 70vh;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  font-size: 3rem;
+  color: var(--text-color);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: var(--text-color);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.link-project {
+  display: inline-block;
+  transform: translate(10px, 5px);
+  text-decoration: none;
+  color: var(--text-color);
+  mix-blend-mode: difference;
+  margin-left: 5px;
 }
 
 .footer-inner {
-  height: 50px;
+  height: 7vmin;
   background-color: var(--basic-color);
   display: flex;
   align-items: center;
@@ -101,14 +175,7 @@
 }
 
 .icons {
-  width: 15vmin;
+  width: 20vmin;
   display: flex;
   justify-content: space-between;
-}
-
-@media only screen and (min-width: 360px) and (max-width: 768px) {
-  .footer-inner {
-    flex-direction: column;
-    height: 30vmin;
-  }
 }
