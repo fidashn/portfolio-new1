@@ -11,10 +11,10 @@ function About() {
         <img src={Img1} id='my-img' alt="me" />
       </div>
       <div className='about-box'>
-        <h2>Hi, I'm Fida 🙋‍♀️.</h2>
-        <p>
-          I've gone a long way, I gained more skills at programming, however I still need a suitable platform to sharpen my abilities, so I'm looking forward to join a company that shares my values, and enables me to fulfill my potential</p>
-        <p>In this website you can find all my communication channels, in addition to my projects, enjoy and feel free to contact me. </p>
+        <h2>Hi I'm Fida 🙋‍♀️, Frontend web developer.</h2>
+        <p>welcome to my portfolio.</p>
+        <p>In this website you can find all my communication channels, in addition to my favorite projects, enjoy browsing and feel free to contact me. </p>
+        <p>Scroll down to see my work.</p>
       </div>
     </div>
   )
