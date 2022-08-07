@@ -93,9 +93,13 @@ p {
 }
 h3{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   color: var(--text-color);
   padding-top: 1vh;
+}
+
+h3:hover {
+  cursor: pointer;
 }
 
 .projects-box {
@@ -247,6 +251,8 @@ h3{
   p {
     margin-left: 7vw;
   }
+
+ 
 
   .projects-box {
     height: 40vh;
