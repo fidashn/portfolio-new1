@@ -229,6 +229,11 @@ h3:hover {
     height: 5vh;
   }
 
+  .download:hover {
+    border: solid 1px var(--secondary-color);
+    cursor: pointer;
+  }
+
   #about-section {
     display: flex;
     flex-direction: column;
