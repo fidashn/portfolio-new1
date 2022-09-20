@@ -267,9 +267,7 @@ h3:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%;
-    height:400px; */
-    border: 2px solid red;
+    border: 2px solid green;
   }
 
   .image1 {
@@ -278,15 +276,18 @@ h3:hover {
     border-radius: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .left-arrow,
   .right-arrow {
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .left-arrow {
+  /* .left-arrow {
     top: 15%;
     left: 15px;
   }
@@ -294,7 +295,7 @@ h3:hover {
   .right-arrow {
     top: 15%;
     right: 15px;
-  }
+  } */
 
   .fa-link,
   .small{
