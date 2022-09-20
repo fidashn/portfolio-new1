@@ -51,7 +51,7 @@
 }
 
 .download {
-  width: 10vw;
+  width: 150px;
   height: 5vh;
   border-radius: 20px;
   color: var(--text-color);
