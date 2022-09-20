@@ -21,8 +21,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className='slider' style={{ width:"100vw", height:"20vh", display:"flex", alignItems:"center", justifyContent:"center"}}>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/>
       {ProjectsData.map((slide, index) => {
         return (
           <div
