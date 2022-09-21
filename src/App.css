@@ -147,10 +147,7 @@ h3:hover {
   cursor: pointer;
   user-select: none;
 }
-.projects-section, .projects-box{
-  /* margin-top: 10%; */
-  border: 2px solid red;
-}
+
 
 .slide {
   opacity: 0;
