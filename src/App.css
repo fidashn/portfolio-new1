@@ -162,7 +162,7 @@ h3:hover {
 
 .link-project {
   display: inline-block;
-  transform: translate(10px, 5px);
+  transform: translate(11px, 5px);
   text-decoration: none;
   color: var(--text-color);
   mix-blend-mode: difference;
