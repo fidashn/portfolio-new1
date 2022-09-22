@@ -53,7 +53,7 @@
 .download {
   width: 150px;
   height: 5vh;
-  border-radius: 20px;
+  border-radius: 25px;
   color: var(--text-color);
   font-weight: 500;
   background-color: transparent;
